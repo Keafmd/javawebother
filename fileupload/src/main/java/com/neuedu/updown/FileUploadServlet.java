@@ -131,7 +131,8 @@ public class FileUploadServlet extends HttpServlet {
             //            request.getParameter()
 
         }
-
+        //查询
+        response.sendRedirect(request.getContextPath()+"/filelist");
 
     }
 

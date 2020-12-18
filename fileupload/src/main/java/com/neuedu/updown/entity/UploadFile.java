@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 /**
  * Keafmd
  *
@@ -29,6 +31,6 @@ public class UploadFile {
     private String originName;
 
     @Column("upload_time")
-    private String uploadTime;
+    private Date uploadTime;
 
 }
